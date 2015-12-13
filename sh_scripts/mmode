@@ -6,10 +6,10 @@ then
 	sudo mmode
 	exit 1
 fi
-echo "Checking adapter state..."
 echo "Checking airodum-ng WPS..."
 if airodump-ng | grep -q "Display WPS information"
 then
+	echo "Checking adapter state..."
 	if iwconfig | grep -q "wlan0mon"
 	then
 		echo "Disabling monitor mode..."
