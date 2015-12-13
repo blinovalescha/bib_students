@@ -5,7 +5,7 @@ then
 	echo "You need R00T!"
 	sudo mmode
 	exit 1
-fi
+fi	
 echo "Checking airodum-ng WPS..."
 if airodump-ng | grep -q "Display WPS information"
 then
