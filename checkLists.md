@@ -6,4 +6,4 @@
 
 Гозман Семён : https://github.com/Eragon322
 
-Алёша Блинов : https://github.com/blinovalescha
+Блинов Алексей : https://github.com/blinovalescha
